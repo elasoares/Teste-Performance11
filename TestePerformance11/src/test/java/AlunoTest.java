@@ -13,7 +13,7 @@ public class AlunoTest {
 
     @Test
     public void testarNome() {
-        String nome = "Ela";
+        String nome = "Elaine Soares";
 
         Aluno matricula = new Aluno();
         matricula.setNome(nome);
@@ -22,7 +22,7 @@ public class AlunoTest {
 
     @Test
     public void testarNota1() {
-        double nota = -1;
+        double nota = 1;
         Aluno nota1 = new Aluno();
         nota1.setNota1(nota);
         Assertions.assertEquals(nota, nota1.getNota1());
@@ -30,7 +30,7 @@ public class AlunoTest {
 
     @Test
     public void testarNota2() {
-        double nota = -5;
+        double nota = 5;
         Aluno nota2 = new Aluno();
         nota2.setNota2(nota);
         Assertions.assertEquals(nota, nota2.getNota2());
